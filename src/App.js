@@ -36,7 +36,7 @@ function App() {
     }
     setIsLoading(false)
   },[])
-
+ 
   useEffect(() => {         //  THE FUNCTION IS CALLED ANYTIME THE APP IS RENDERED
     fetchMoviesHandler();
   },[fetchMoviesHandler])
