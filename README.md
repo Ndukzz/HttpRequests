@@ -1,2 +1,2 @@
 # HttpRequests
-This project uses the fetch api function in JS to fetch movies and handle errors.
+This project was updated from using the Fetch api to using the axios api function in JS to fetch movies and handle errors.
