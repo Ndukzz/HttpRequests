@@ -20,7 +20,7 @@ function App() {
     axios.get("https://react-movies-4a800-default-rtdb.firebaseio.com/movies.json")
       .then(res => {
         if (res.status !== 200) {
-          throw new Error('Something went wrong!!')
+          throw new Error('Something went wrong!!')    //  THROWING THE ERROR
         }
         const data = res.data;
         console.log(data);
@@ -35,7 +35,7 @@ function App() {
         setMovies(loadedMovies);
         }
       })
-      .catch(error => {
+      .catch(error => {    //  CATCHING THE ERROR
         setError(error.message)
       })
     
